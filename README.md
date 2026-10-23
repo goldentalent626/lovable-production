@@ -1,6 +1,6 @@
 # Welcome!
 
-At [Schub Space](https://www.schub.tech) we have some teams shipping their lovable projects to production. Here are our notes how we tackled the challenges we faced along the way. Feel free to contribute via pull requests.
+At Schub Space, we have some teams shipping their lovable projects to production. Here are our notes how we tackled the challenges we faced along the way. Feel free to contribute via pull requests.
 
 ## Table of Content
 
@@ -32,7 +32,7 @@ The deploy process itsels consists of:
 - deploy edge functions
 - invalidate cloudfront cache
 
-You can use the following template for your Github deploy action. Just copy it to [.github/deploy.yml](https://github.com/schub-tech/lovable-production/blob/main/.github/workflows/deploy.ymlhttps:/)
+You can use the following template for your Github deploy action. Just copy it to [.github/deploy.ym]
 In the file itself, replace the following variables
 
 - your S3 bucket name
@@ -265,5 +265,3 @@ jobs:
           retention-days: 30
 
 ```
-
-Note: Some of the configuration also happens in [playwright.config.ts](https://github.com/schub-tech/lovable-production/blob/main/playwright.config.ts), be sure to copy that to your repo too.
